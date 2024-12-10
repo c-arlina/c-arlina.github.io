@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+  <link href="https://fonts.googleapis.com/css2?family=Metal&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Metrophobic&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"> <!-- Shared styles -->
+  <header>
+    <img src="images/logo.png"> <!-- Logo for all pages -->
+    <nav>
+      <a href="index.html" class="active">home</a>
+      <a href="about.html">about</a>
+      <a href="portfolio.html">portfolio</a>
+      <a href="contact.html">contact</a>
+    </nav>
+  </header>
+  <style>
+    body {
+      font-family: 'Metal', cursive;
+      margin: 0;
+      padding: 0;
+      background-color: #FAFAFA;
+      color: #0044cc;
+    }
+
+    nav a:hover {
+      background-color: #0044cc;
+      color: #ffffff;
+    }
+
+    nav a.active {
+      border: 2px solid #0044cc;
+    }
+
+    main {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start; /* Align items to the top */
+      padding: 40px 40px; /* Adjust padding for better positioning */
+    }
+
+    .text-content {
+      max-width: 60%;
+      margin: 0; /* Remove extra margin */
+    }
+
+    .text-content h1 {
+      font-family: 'Metal', cursive; /* Original Metal font */
+      font-size: 60px; /* Keep size large */
+      font-weight: normal; /* Less bold */
+      margin: 0;
+      margin-bottom: 20px;
+    }
+
+    .text-content p {
+      font-family: 'Metrophobic', sans-serif; /* Metrophobic for body text */
+      font-size: 20px; /* Keep size consistent with h1 */
+      line-height: 1.6;
+      margin: 0;
+    }
+
+    .image-container {
+      max-width: 30%;
+      text-align: right; /* Align the image container to the right */
+    }
+
+    .image-container img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <main>
+    <div class="text-content">
+      <h1>About me</h1>
+      <p>
+        Hi, I'm Carlina—a full-time graphic design student at George Brown College with a background in visual art. Now specializing in brand design, I strive to create work that’s both functional and high-quality, with a spark of playfulness. (*ᴗ͈ˬᴗ͈)ꕤ*.ﾟ
+      </p>
+    </div>
+    <div class="image-container">
+      <!-- Placeholder for the image -->
+      <img src="images/carlina-portrait.png" alt="Carlina Portrait" />
+    </div>
+  </main>
+  <footer>
+    <p>© 2024 Carlina's Portfolio</p>
+  </footer>
+</body>
+</html>
