@@ -1,0 +1,110 @@
+/* General Body Styling */
+body {
+    font-family: 'Metrophobic', sans-serif; /* Set body text to Metrophobic */
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+    color: #0044cc;
+}
+
+/* Ensure headers use Metal font */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Metal', cursive;
+}
+
+/* Navigation Bar */
+header {
+    display: flex;
+    justify-content: space-between; /* Space between logo and links */
+    align-items: center;
+    padding: 10px 40px;
+    border-bottom: 3px solid #0044cc;
+    background-color: #FAFAFA;
+}
+
+header img {
+    max-width: 50px; /* Adjust logo size */
+    height: auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0044cc;
+    font-size: 16px;
+    font-family: 'Metal', cursive; /* Set font to Metal */
+    text-transform: lowercase;
+    padding: 6px 12px;
+    border: 2px solid #0044cc;
+    border-radius: 25px;
+    background: transparent;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #0044cc;
+    color: #ffffff;
+}
+
+nav a.active {
+    border: 2px solid #0044cc;
+}
+
+/* Main Content Styling */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 80px 40px;
+}
+
+.text-content {
+    margin-bottom: 20px;
+}
+
+.text-content h1 {
+    font-family: 'Metal', cursive; /* Keep Metal for headers */
+    font-size: 60px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.text-content p {
+    font-family: 'Metrophobic', sans-serif; /* Body text remains Metrophobic */
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.image-container {
+    text-align: center;
+    max-width: 100%;
+}
+
+/* Portfolio Page Styling */
+.portfolio-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 40px;
+}
+
+.portfolio-item {
+    border: 2px solid #0044cc;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #0044cc;
+    color: white;
+}
